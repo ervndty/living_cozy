@@ -1,0 +1,8 @@
+.futLink a, p{
+    color: gray;
+    text-decoration: none;
+}
+
+.futLink a:hover{
+    color: black;
+}

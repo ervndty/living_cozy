@@ -1,0 +1,25 @@
+:root{
+  --primary-color: #EFF2F1;
+  --secondary-color: #35736E;
+  --third-color: #E89F71;
+  --dark-color: black;
+   
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(../assets/Poppins-Regular.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

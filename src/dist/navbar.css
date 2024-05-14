@@ -1,0 +1,28 @@
+#menu{
+    color: white;
+    margin-right: 2rem;
+}
+
+.profil{
+    width: 30px;
+    height: 30px;
+    color: whitesmoke;
+}
+
+.logo-nav{
+    width: 100px;
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+
+form .form-control{
+    width: 500px;
+    height:40px;
+    border: none;
+    border-radius: 0;
+}
+
+.active{
+    background: var(--secondary-color);
+}
