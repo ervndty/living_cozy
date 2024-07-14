@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  max-width: 400px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+
+a {
+  color: #42b549;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.google-button .google-icon {
+  margin-right: 10px;
+}
+
+.atau-daftar {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #999;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #42b549;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #3a9e43;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.syarat-ketentuan {
+  font-size: 12px;
+  color: #555;
+  margin-top: 10px;
+  text-align: center;
+}

@@ -1,0 +1,50 @@
+.cont-prof{
+    margin-top: 8rem;
+}
+
+.cont-prof .cont-row{
+    margin-bottom: 12rem;
+}
+
+.form-prof {
+    margin-top: 2rem;
+    
+}
+
+.cont-row h1{
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+}
+
+.sidebar-profile{
+    width: 100%;
+    height: 650px;
+    background: lightgray;
+    border-radius: 10px;
+}
+
+.sidebar-profile .btn-prof{
+    border-radius: 5px;
+    border: 2px solid rgb(82, 58, 50);
+    width: 100px;
+    background: var(--third-color);
+    margin-left: 50px;
+    margin-top: 2rem;
+}
+
+.sidebar-profile .btn-prof:hover{
+    background: #bd8461;
+}
+
+.sidebar-profile .btn-hist{
+    border-radius: 5px;
+    border: 2px solid rgb(82, 58, 50);
+    width: 100px;
+    background: var(--third-color);
+    margin-left: 50px;
+    margin-top: 1rem;
+}
+
+.sidebar-profile .btn-hist:hover{
+    background: #bd8461;
+}

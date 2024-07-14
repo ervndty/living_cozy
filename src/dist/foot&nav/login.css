@@ -1,0 +1,108 @@
+/* login.css */
+
+/* Modal Container */
+.login-modal .modal-content {
+    border: none; /* Hapus border default */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan halus */
+  }
+  
+  /* Modal Header */
+  .login-modal .modal-header {
+    border-bottom: none; /* Hapus border bawah header */
+    padding: 20px; /* Tambahkan padding */
+  }
+  
+  .login-modal .modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Pusatkan judul */
+  }
+  
+  .login-modal .daftar-link {
+    color: #008000;
+    font-weight: bold;
+    text-decoration: none; /* Hapus underline pada link */
+  }
+  
+  /* Modal Body */
+  .login-modal .modal-body {
+    padding: 20px;
+  }
+  
+  .login-modal .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .login-modal .form-label {
+    font-weight: bold;
+  }
+  
+  .login-modal .login-input {
+    width: 100%;
+    padding: 10px; /* Tambahkan padding pada input */
+    border: 1px solid #ccc; /* Tambahkan border */
+    border-radius: 5px; /* Tambahkan border radius */
+  }
+  
+  /* Tombol */
+  .login-modal .login-button {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%; /* Lebar penuh */
+  }
+  
+  .login-modal .login-button:hover {
+    background-color: #0062cc; /* Ubah warna saat hover */
+  }
+  
+  .login-modal .bantuan-link {
+    color: #008000;
+    text-decoration: none;
+  }
+  
+  /* Garis Pemisah */
+  .login-modal .login-divider {
+    border-top: 1px solid #eee; /* Tambahkan garis pemisah */
+    margin: 20px 0;
+  }
+  
+  /* Teks "atau masuk dengan" */
+  .login-modal .login-text {
+    color: #6c757d;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Tombol Google */
+  .login-modal .google-button {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex; /* Gunakan flexbox untuk mengatur ikon dan teks */
+    align-items: center; /* Sejajarkan item secara vertikal */
+    justify-content: center; /* Sejajarkan item secara horizontal */
+  }
+  
+  .login-modal .google-button:hover {
+    background-color: #f5f5f5; /* Ubah warna latar belakang saat hover */
+  }
+  
+  .login-modal .google-button i {
+    margin-right: 10px; /* Tambahkan margin kanan pada ikon */
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 576px) {
+    .login-modal .modal-dialog {
+      max-width: 90%; /* Batasi lebar maksimum modal pada layar kecil */
+      margin: 1.75rem auto; /* Pusatkan modal secara horizontal */
+    }
+  }
+  

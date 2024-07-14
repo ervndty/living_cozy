@@ -1,0 +1,291 @@
+.cont-product {
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 2%;
+    margin: 10px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 22%;
+    z-index: -2;
+}
+
+.card-container img{
+    width: 200px;
+}   
+
+.card{
+    margin: 20px 10px 10px 0;
+    border: 2px solid #ededed;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: inset 1px 1px 8px lightgray; 
+}
+
+.card-title{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.card-reviews{
+    margin-bottom: 0.6rem;
+    margin-left: 60px;
+    display: flex;
+}
+
+.total-reviews{
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.card-price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 items per row */
+    gap: 20px;
+    justify-items: center;
+    margin: 20px;
+}
+
+.product-item {
+    cursor: pointer;
+    width: 100%;
+    max-width: 250px; /* Adjust based on your design */
+    text-align: center; /* Center align text */
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.text-product {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.price-product {
+    font-size: 18px;
+    color: #000;
+    margin: 5px 0;
+}
+
+.rate-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardDet {
+    margin: 4rem 10px 16rem 0;
+    border: 2px solid ;
+    padding: 10px;
+    display: flex;
+}
+
+.cardDet img{
+    margin: 0;
+    width: 600px;
+}
+
+.cardDet h1{
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.cardDet p{
+    margin-top: 2rem;
+}
+
+.star-det{
+    margin-top: -5px;
+}
+
+.rate-det{
+    margin-bottom: 10px;
+}
+
+.backIcon{
+    margin-top: 20px;
+    color: var(--secondary-color);
+}
+
+.backIcon:hover{
+    color: var(--third-color);
+}
+
+.atur{
+    margin-right: 20px;
+}
+
+.side-det{
+    margin-left: 10rem;
+}
+
+.side-det .jmlh{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.jmlh button{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    margin-top: -2px;
+    border: none;
+    color: gray;
+}
+
+.jmlh {
+    display: flex;
+    gap: 10px;
+    color: var(--dark-color);
+
+  }
+  
+  .stock {
+    margin-left: 20px;
+    font-size: 1rem;
+    
+  }
+
+
+.jmlh button:hover{
+    color: var(--dark-color);
+}
+
+.grs hr{
+    margin: -12rem 1rem 2rem 0;
+}
+
+.grs h5 b{
+    margin-left: 8%;
+}
+
+.side-det .atur,.grs,.side-det-btn{
+    margin-left: 2rem;
+}
+
+.side-det-btn button{
+    border: 2px solid var(--secondary-color);
+    padding: 10px 50px;
+    margin: 0 20px 0 0;
+    position: relative;
+    top: -18rem;
+    font-weight: 200;
+    background-color: white;
+    color: var(--secondary-color);
+}
+
+.side-det-btn button:hover{
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.side-det-btn .btn-cart{
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.side-det-btn .btn-cart:hover{
+    background-color: white;
+    color: var(--secondary-color);
+}
+
+.text-product{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.star {
+    margin-left: -4px;
+}
+
+.recommended {
+    margin: 6rem 0 4rem 20%;
+}
+
+.recommended-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+}
+
+.recommended-title {
+    margin-left: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.recommended-flex .btn {
+    width: 120px;
+    border: 1px solid #ededed;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+.recommended-flex .btn:hover {
+    color: white;
+    background: var(--third-color);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+    .product-list {
+        grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .product-list {
+        grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    }
+
+    .cardDet {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardDet h2 {
+        margin: 30px 0 0 45px;
+    }
+    
+    .cardDet p {
+        margin: 40px 0 0 20px;
+    }
+    
+    .rate-det {
+        margin: 0 0 0 45px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+    }
+
+    .cardDet img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .product-list {
+        grid-template-columns: repeat(1, 1fr); /* 1 item per row */
+    }
+}

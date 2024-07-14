@@ -1,0 +1,48 @@
+:root{
+    --bgProduct: #35736e2a;
+}
+
+.Intro{
+    margin-top: 80px;
+}
+.promo{
+    height: auto;
+    background-size:cover ;
+}
+
+.hr { 
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;  
+    margin: center;
+}
+
+.PRO{
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: left;
+    line-height: 1;
+}
+
+.productPro{
+    margin-bottom: 10px;
+}
+
+.image{
+    width: 400px;
+    height: auto;
+    line-height: 1;
+    display: flex;
+    justify-content: left;
+}
+
+.content-section{
+    margin-top: 10px;
+}
+
+.ROM{
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: left;
+    line-height: 1;
+}

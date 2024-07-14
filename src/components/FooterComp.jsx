@@ -8,7 +8,7 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 
-import '../dist/footer.css'
+import '../dist/foot&nav/footer.css'
 
 import { FaFacebookF, FaInstagram, FaGoogle  } from "react-icons/fa";
 import { FaXTwitter, FaLocationDot } from "react-icons/fa6";

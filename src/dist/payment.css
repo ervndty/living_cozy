@@ -1,0 +1,38 @@
+.payCont {
+    cursor: default;
+}
+
+.btn-proceed {
+    width: 250px;
+    height: 50px;
+    background: var(--secondary-color);
+}
+
+.btn-proceed:hover {
+    background-color: #2e615d;
+}
+
+.link-add a{
+    text-decoration: none;
+}
+
+.check-cart{
+    display: flex;
+    position: relative;
+    top: 12px;
+    right: 10px;
+}
+
+.text-muted{
+    position: relative;
+    bottom: 12px;
+}
+
+.btn-checkout{
+    width: 100%;
+    background: #2e615d !important;
+}
+
+.btn-checkout:hover{
+    color: var(--dark-color) !important;
+}

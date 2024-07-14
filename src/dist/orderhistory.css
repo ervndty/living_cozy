@@ -1,0 +1,40 @@
+.order-number-column {
+    width: 150px; /* Atur lebar sesuai kebutuhan */
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.status.success {
+    background-color: green;
+}
+
+.status.pending {
+    background-color: yellow;
+    color: black;
+}
+
+.status.deny, .status.expire, .status.cancel {
+    background-color: red;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.review-form input[type="file"] {
+    padding: 5px;
+}
+
+.review-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    resize: none;
+}
